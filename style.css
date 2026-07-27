@@ -3,6 +3,9 @@
     padding: 0;
     text-align: center;
 }
+body{
+    background-color: rgb(142, 183, 183);
+}
 
 h1{
     background-color: rgb(16, 12, 73);
@@ -67,4 +70,9 @@ img{
     display: inline;
     padding: 1rem;
     border-radius: 10px;
+}
+
+#msg:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
